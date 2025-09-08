@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body{
+        background-color:black;
+        }
+        *{
+            color:white;
+        }
+        .button{
+            position:absolute;
+            bottom:10%;
+            border:black;
+            height:40px;
+            width:100px;
+            border:solid;
+            border-radius:100px;
+            cursor:pointer;
+            color:black;
+        }
+        .button:hover{
+            color:white;
+            background-color: black;
+        }
+        form{
+           position:relative;
+           width:100px;
+           height:100vh;
+        }  
+        .info{
+            height:40px;
+            width:100px;
+            border:solid;
+            border-radius:100px;
+            color:black;
+            cursor:pointer;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>Contact Me:</h1>
+    <form>
+        <label for="Name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your Name"><br>
+        <label for="Email">EMAIL ID:</label>
+        <input type="email" id="email" placeholder="Enter your Email"><br>
+        <label for="number">Mobile Number:</label>
+        <input type="tel" id="number" placeholder="Enter Your Mobile Number"><br>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female" ><br>
+        <label for="message">Subject:</label>
+        <input type="text" id="message" placeholder="Enter your Message"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Ener your Message" maxlength="1000" rows="5" cols="40"></textarea><br>
+        <button type="submit" class="info">Submit</button>
+    </form>
+</body><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <a href="index.html"><button class="button">Back</button></a>
+</footer>
+</html>
